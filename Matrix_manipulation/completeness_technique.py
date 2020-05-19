@@ -1,5 +1,7 @@
 
 import numpy as np
+# noinspection PyUnresolvedReferences
+import pandas as pd
 
 
 class Techniques:
