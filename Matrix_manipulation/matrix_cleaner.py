@@ -3,6 +3,7 @@ import numpy as np
 import random
 
 from completeness_technique import Techniques
+from pairwisemkl.learner.compute_M import *
 
 
 class MatrixCleaner:
@@ -52,10 +53,10 @@ class MatrixCleaner:
 
 if __name__ == '__main__':
     data = MatrixCleaner.load(filename="data.txt")
-    cells = MatrixCleaner.get_random_cells(len(data), 50)
+    cells = MatrixCleaner.get_random_cells(len(data), 10)
 
     data_modified = data.copy()
-    Techniques.technique_1(cells, data_modified, "zero")
+    Techniques.technique_1(cells, data_modified, "average")
 
     print("Set of selected cells in the matrix: ", cells)
     print(data)
