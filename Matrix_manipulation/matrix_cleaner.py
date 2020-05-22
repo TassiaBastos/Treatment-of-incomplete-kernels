@@ -3,7 +3,7 @@ import numpy as np
 import random
 
 from completeness_technique import Techniques
-from pairwisemkl.learner.compute_M import *
+#from pairwisemkl.learner.compute_M import *
 
 
 class MatrixCleaner:
@@ -59,6 +59,9 @@ if __name__ == '__main__':
     Techniques.technique_1(cells, data_modified, "average")
 
     print("Set of selected cells in the matrix: ", cells)
-    print(data)
     print()
+    print("Matrix original:")
+    print(data)
+    print("________________________________________________")
+    print("Matrix modified:")
     print(data_modified)
