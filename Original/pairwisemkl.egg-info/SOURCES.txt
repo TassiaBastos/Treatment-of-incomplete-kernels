@@ -1,0 +1,8 @@
+README.rst
+setup.py
+pairwisemkl.egg-info/PKG-INFO
+pairwisemkl.egg-info/SOURCES.txt
+pairwisemkl.egg-info/dependency_links.txt
+pairwisemkl.egg-info/requires.txt
+pairwisemkl.egg-info/top_level.txt
+pairwisemkl/utilities/_sampled_kronecker_products.c
