@@ -1,0 +1,10 @@
+Modified_median_70_Kd_PubChem.txt
+Modified_median_70_Kd_circular.txt
+Modified_median_70_Kd_estate.txt
+Modified_median_70_Kd_ext.txt
+Modified_median_70_Kd_graph.txt
+Modified_median_70_Kd_hybr.txt
+Modified_median_70_Kd_kr.txt
+Modified_median_70_Kd_maccs.txt
+Modified_median_70_Kd_sp.txt
+Modified_median_70_Kd_std.txt
