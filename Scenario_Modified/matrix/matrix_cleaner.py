@@ -74,15 +74,16 @@ if __name__ == '__main__':
     fileName = "Kd_std.txt"
 
     # percent = [10, 30, 50, 70]
-    # percent = [10]
+    percent = [10]
     # percent = [30]
     # percent = [50]
-    percent = [70]
+    # percent = [70]
 
     # techniques = ['zero', 'average', 'median']
     # techniques = ['average']
     # techniques = ['median']
-    techniques = ['zero']
+    # techniques = ['zero']
+    techniques = ['na']
 
 
     data = MatrixCleaner.load(filename=fileName)
@@ -95,5 +96,7 @@ if __name__ == '__main__':
             Techniques.technique_1(cells, data_modified, tech)
 
             # só falta rodar!!
-            np.savetxt('/home/tassia/Scenario 3 - all change/data_base/Scenario-03/Scenario-03_zero_70/Iteration-03/'
-                       + "Modified" + "_" + tech + "_" + str(perc) + "_" + fileName, data_modified, delimiter='\t')
+            np.savetxt("Modified" + "_" + tech + "_" + str(perc) + "_" + fileName, data_modified, delimiter='\t')
+
+            # np.savetxt('/home/tassia/Scenario 3 - all change/data_base/Scenario-03/Scenario-03_zero_70/Iteration-03/'
+            #            + "Modified" + "_" + tech + "_" + str(perc) + "_" + fileName, data_modified, delimiter='\t')

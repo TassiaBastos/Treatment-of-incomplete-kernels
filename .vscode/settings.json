@@ -1,3 +1,4 @@
 {
-    "python.dataScience.showKernelSelectionOnInteractiveWindow": true
+    "python.dataScience.showKernelSelectionOnInteractiveWindow": true,
+    "python.dataScience.jupyterServerURI": "local"
 }

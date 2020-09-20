@@ -14,6 +14,11 @@ class Techniques:
             median = np.median(data)
             for i in range(0, len(cells)):
                 data[cells[i][0]][cells[i][1]] = median
+
+        elif (tech == 'na'):
+            na = 'NaN'
+            for i in range(0, len(cells)):
+                data[cells[i][0]][cells[i][1]] = na
         else:
             for i in range(0, len(cells)):
                 data[cells[i][0]][cells[i][1]] = 0
