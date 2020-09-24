@@ -1,0 +1,10 @@
+na_70_Kd_circular.txt
+na_70_Kd_estate.txt
+na_70_Kd_ext.txt
+na_70_Kd_graph.txt
+na_70_Kd_hybr.txt
+na_70_Kd_kr.txt
+na_70_Kd_maccs.txt
+na_70_Kd_PubChem.txt
+na_70_Kd_sp.txt
+na_70_Kd_std.txt

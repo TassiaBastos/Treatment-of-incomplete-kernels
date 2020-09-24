@@ -62,6 +62,7 @@ if __name__ == '__main__':
     # fileName = "Kc_mutation_57.txt"
     # fileName = "Kc_mutation_71.txt"
     # fileName = "Kc_mutation_132.txt"
+
     # fileName = "Kd_circular.txt"
     # fileName = "Kd_estate.txt"
     # fileName = "Kd_ext.txt"
@@ -74,10 +75,10 @@ if __name__ == '__main__':
     fileName = "Kd_std.txt"
 
     # percent = [10, 30, 50, 70]
-    percent = [10]
+    # percent = [10]
     # percent = [30]
     # percent = [50]
-    # percent = [70]
+    percent = [70]
 
     # techniques = ['zero', 'average', 'median']
     # techniques = ['average']
