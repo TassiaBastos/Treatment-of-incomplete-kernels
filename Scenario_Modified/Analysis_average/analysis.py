@@ -3,15 +3,15 @@ from typing import List
 from math import sqrt
 
 # input
-# F1_score = sys.argv[1]
+F1_score = sys.argv[1]
 # RMSE = sys.argv[1]
-Pearson_correlation = sys.argv[1]
+# Pearson_correlation = sys.argv[1]
 # output
-# analysis_F1_score_deleted_files = sys.argv[2]
+analysis_F1_score_deleted_files = sys.argv[2]
 # analysis_RMSE_deleted_files = sys.argv[2]
-analysis_Pearson_correlation_deleted_files = sys.argv[2]
+# analysis_Pearson_correlation_deleted_files = sys.argv[2]
 
-with open(Pearson_correlation) as f:
+with open(F1_score) as f:
     lines = f.readlines()
     f.close()
     mean = 0
@@ -21,7 +21,7 @@ with open(Pearson_correlation) as f:
 
     mean = mean / len(lines)
 
-with open(Pearson_correlation) as f:
+with open(F1_score) as f:
     lines = f.readlines()
     f.close()
     sum = 0
@@ -34,7 +34,7 @@ with open(Pearson_correlation) as f:
 
 my_list = [mean, stddev]
 
-with open(analysis_Pearson_correlation_deleted_files, 'w') as output:
+with open(analysis_F1_score_deleted_files, 'w') as output:
     for item in my_list:
         output.write("%s\n" % item)
 
